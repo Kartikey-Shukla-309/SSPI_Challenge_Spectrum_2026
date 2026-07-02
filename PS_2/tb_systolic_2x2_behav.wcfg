@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_systolic_2x2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_systolic_2x2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="968.725 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="203"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/tb_systolic_2x2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/inp_west" type="array">
+      <obj_property name="ElementShortName">inp_west[63:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_west[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/inp_north" type="array">
+      <obj_property name="ElementShortName">inp_north[63:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_north[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/A" type="array">
+      <obj_property name="ElementShortName">A[0:1][0:1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[0:1][0:1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/B" type="array">
+      <obj_property name="ElementShortName">B[0:1][0:1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[0:1][0:1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/GOLDEN" type="array">
+      <obj_property name="ElementShortName">GOLDEN[0:1][0:1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">GOLDEN[0:1][0:1][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/DUT_R" type="array">
+      <obj_property name="ElementShortName">DUT_R[0:1][0:1][63:0]</obj_property>
+      <obj_property name="ObjectShortName">DUT_R[0:1][0:1][63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/k" type="array">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/ti" type="array">
+      <obj_property name="ElementShortName">ti[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ti[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/total" type="array">
+      <obj_property name="ElementShortName">total[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/passed" type="array">
+      <obj_property name="ElementShortName">passed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">passed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/failed" type="array">
+      <obj_property name="ElementShortName">failed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">failed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/grand_total" type="array">
+      <obj_property name="ElementShortName">grand_total[31:0]</obj_property>
+      <obj_property name="ObjectShortName">grand_total[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/grand_passed" type="array">
+      <obj_property name="ElementShortName">grand_passed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">grand_passed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/grand_failed" type="array">
+      <obj_property name="ElementShortName">grand_failed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">grand_failed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/seed" type="array">
+      <obj_property name="ElementShortName">seed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">seed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/t_start_ns" type="other">
+      <obj_property name="ElementShortName">t_start_ns</obj_property>
+      <obj_property name="ObjectShortName">t_start_ns</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/t_done_ns" type="other">
+      <obj_property name="ElementShortName">t_done_ns</obj_property>
+      <obj_property name="ObjectShortName">t_done_ns</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/latency_ns" type="other">
+      <obj_property name="ElementShortName">latency_ns</obj_property>
+      <obj_property name="ObjectShortName">latency_ns</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/DATA_W" type="array">
+      <obj_property name="ElementShortName">DATA_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/ACCUM_W" type="array">
+      <obj_property name="ElementShortName">ACCUM_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACCUM_W[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_systolic_2x2/STREAM_CYCLES" type="array">
+      <obj_property name="ElementShortName">STREAM_CYCLES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">STREAM_CYCLES[31:0]</obj_property>
+   </wvobject>
+</wave_config>
